@@ -1,0 +1,104 @@
+        body {
+			background-image: url('background.gif');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;            
+			font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #overall {
+            background-color: #cc99ff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 400px;
+            width: 100%;
+			
+        }
+
+        h1 {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        #explanation {
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+        }
+
+        #puzzlearea {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+			
+        }
+
+        .puzzlepiece {
+			background-image: url('patrick.jpg');
+			background-size: 450px;
+			background-position: center;
+			background-repeat: no-repeat;  
+            border: 1px solid black;
+            height: 96px;
+            line-height: 96px;
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+		}
+
+        .puzzlepiecehover {
+            background-color: #99ff66;
+            border-color: limegreen;
+            color: black;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        #controls {
+            text-align: center;
+            padding: 10px;
+        }
+		#mp3 {
+			display:none;
+		}
+
+        #shufflebutton {
+            background-color: #bbff99;
+            color: black;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+		#cheatbutton{
+			background-color: #bbff99;
+            color: black;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #shufflebutton:hover {
+            background-color: lightpink;
+        }
+
+        #w3c {
+            text-align: right;
+            margin: 10px;
+        }
+
+        #w3c img {
+            border: none;
+        }
